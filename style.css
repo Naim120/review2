@@ -1,0 +1,98 @@
+* body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.review {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.review h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.rating {
+	margin-top: 10px;
+}
+
+.star {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url('images/star.png');
+background-size: cover;
+}
+
+.star.active {
+background-image: url('images/star-active.png');
+}
+
+.submit-review-btn {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+form {
+border: 1px solid #ccc;
+padding: 10px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="email"],
+textarea,
+select {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button[type="submit"] {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #3e8e41;
+}
